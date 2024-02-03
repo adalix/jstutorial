@@ -1,0 +1,28 @@
+body{
+    background: #eee;
+}
+
+form{
+    max-width: 200px;
+    margin: 40px auto;
+    padding: 10px;
+    background: white;
+}
+
+
+input{
+    display: block;
+    margin: 10px auto;
+    padding: 4px;
+}
+input:focus{
+    outline: none;
+}
+
+.success{
+    border: 2px solid limegreen;
+}
+
+.error{
+    border: 2px solid crimson;
+}
